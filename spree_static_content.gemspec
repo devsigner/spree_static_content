@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_core', '>= 0.70.1'
   s.add_dependency 'spree_auth', '>= 0.70.1'
   s.add_dependency 'formtastic'
+  s.add_dependency 'RedCloth'
   s.add_development_dependency 'rspec-rails'
 end
 
