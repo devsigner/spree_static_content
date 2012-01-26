@@ -20,7 +20,7 @@ Deface::Override.new(:virtual_path => "layouts/spree_application",
 Deface::Override.new(:virtual_path => 'layouts/spree_application',
                      :name => 'add_static_content_menu_on_sidebar',
                      :insert_bottom => "#sidebar",
-                     :text => "<ul class='navigation-list'>
+                     :text => "<ul class='navigation-list static_content_menu'>
                                   <li class='root'> <h3 class='name'>Informations</h3> </li>
                                   <% Page.sidebar_links.each do |page| %>
                                     <li class='second_children <%== 'current' if page == @page %>'>
